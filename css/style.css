@@ -1,0 +1,92 @@
+
+nav ul li a{
+    font-size: 1.20rem !important; 
+    transition: .3s;
+    cursor: pointer;
+    position: relative;
+}
+nav> ul> li> a.active,nav a:hover{
+    color: #fddf97 !important;
+    
+}
+nav ul li> a.active{
+    color: #fddf97 !important;
+
+}
+.navbar-nav li a{
+    margin: 10px 8px;
+}
+.text-bg-purble{
+    background-color: rgba(111, 66, 193,0.3) !important;
+}
+.text-purble{
+    color:rgba(111, 66, 193,1) !important; ;
+}
+.fa-bars
+{
+    color:#fff !important;
+    font-size: 30px;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.bg-color{
+   background-color: #d68438 !important;
+}
+nav ul li> a::after{
+    content: "";
+    position: absolute;
+    color: rgba(0, 0, 0, 1);
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    border-bottom:3px solid green;
+    transition: all .7s;
+}
+nav ul li> a:hover::after{
+    width: 75%;
+}
+.start-60{
+    margin-left: 70px;
+}
+.carousel-inner h2{
+    position: relative;
+}
+.carousel-inner h2::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background-color: #d68438;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.carousel-inner img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translateY(50%);
+}
+.carousel-indicators [data-bs-target]{
+    width: 50px;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 50%;
+    text-indent: 0;
+
+}
+.carousel-indicators [data-bs-target] img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+#popular p{
+    color: darkgoldenrod;
+}
+button{
+    text-transform: inherit;
+}
